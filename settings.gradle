@@ -1,0 +1,9 @@
+rootProject.name = 'innowise-weather'
+include 'domain'
+include 'workflow-api'
+include 'activity-api'
+include 'registration'
+include 'activity-worker'
+include 'workflow-worker'
+include 'workflow-launcher'
+
