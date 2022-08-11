@@ -1,0 +1,13 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.2'
+    id 'io.spring.dependency-management' version '1.0.12.RELEASE'
+}
+
+dependencies {
+    implementation project(":workflow-api")
+    implementation project(":domain")
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'com.uber.cadence:cadence-client:3.7.1'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+}
